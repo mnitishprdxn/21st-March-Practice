@@ -173,3 +173,23 @@ article{
 article span{
   color: #F5470B;
 }
+
+.queries{
+  margin-top: 65px;
+}
+
+.query h2{
+  background: #EBEBEB;
+  padding-left: 25px;
+  margin-bottom: 23px;
+}
+
+.query p{
+  margin-bottom: 23px;
+  padding: 0 26px;
+}
+
+.query span{
+  float: right;
+  margin: auto 20px;
+}
