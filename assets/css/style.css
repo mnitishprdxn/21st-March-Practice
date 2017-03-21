@@ -82,13 +82,9 @@
     vertical-align: baseline;
   }
 
-  sup {
-    top: -.7em;
-  }
+  sup { top: -.7em; }
 
-  sub {
-    bottom: -.25em;
-  }
+  sub { bottom: -.25em; }
 
 /* 1.2. Clear Fix
 ========================================================================== */
@@ -109,3 +105,71 @@
   }
 
 /*********************** Styling start **********************/
+
+body{
+font-family: sans-serif;
+}
+
+h2{
+  font-size: 19px;
+  padding: 26px 0;
+}
+
+p{
+  font-size: 13px;
+}
+
+h1{
+  margin-left: 113px;
+  padding-top: 10px;
+}
+
+header .video-button{
+  margin-left: 486px;
+  padding-top: 135px;
+}
+
+header{
+  background: url(../images/video-poster.jpg);
+}
+
+header h2{
+  font-size: 40px;
+  color: white;
+  margin-top: 22px;
+  margin-left: 472px;
+}
+
+header button{
+  background-color: #F5470B;
+  border-style: none;
+  border-radius: 5px;
+  margin-left: 488px;
+  margin-bottom: 52px;
+}
+
+header button p{
+  font-size: 19px;
+  padding: 15px 23px;
+  color: white;
+}
+
+.wrapper{
+  width: 984px;
+  margin: 0 auto;
+}
+
+article{
+  width: 215px;
+  margin-top: 64px;
+  text-align: center;
+  display: inline-block;
+}
+
+.details article+article{
+  margin-left: 36px;
+}
+
+article span{
+  color: #F5470B;
+}
